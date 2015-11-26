@@ -9,12 +9,12 @@ A simple RESTful key-value data store with the following features:
     - Request:
   
       ```http
-        PUT http://localhost:3000/keys/1/foobar
+      PUT http://localhost:3000/keys/1/foobar
       ```
     - Response: 
   
       ```http
-        HTTP 200
+      HTTP 200
       ```
   2. GET http://localhost:3000/keys/{key_id} 
 
